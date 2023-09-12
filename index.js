@@ -11,6 +11,11 @@
 
 // Part 1 answer 👇🏻 ...
 
+let fullName = `sheikha aldeai`;
+let yearOfBirth = 1998;
+let hobby = `painting`;
+let funFact = `Drama`;
+const image = `https://wallpapers.com/images/high/default-pfp-heart-8817cd9trs3wgx8y.webp`
 
 
 
@@ -33,6 +38,9 @@
 // const yearOfBirthString =
 // const hobbyString =
 
+const fullNameString = `my name is sheikha`;
+const yearOfBirthString = `I am 25`;
+const hobbyString = `my hobby is painting`;
 
 
 
@@ -45,14 +53,19 @@ let stars = 0;
 
 function incrementBy1() {
   // Increment stars by 1 👇🏻
+  stars +=1
 }
 function decrementBy1() {
   // decrement stars by 1 👇🏻
+  stars -=1
 }
+
 
 function incrementBy2() {
   // Increment stars by 2 👇🏻
+  stars +=2
 }
 function decrementBy2() {
   // decrement stars by 2 👇🏻
+  stars -=2
 }
